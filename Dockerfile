@@ -1,5 +1,5 @@
 # default build is for CentOS7, change the base image to fit your build.
-FROM centos:centos7
+FROM centos:centos6
 MAINTAINER Sebastien Le Digabel "sledigabel@gmail.com"
 
 RUN yum update -y
